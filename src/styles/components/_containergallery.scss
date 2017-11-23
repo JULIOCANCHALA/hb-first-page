@@ -1,0 +1,26 @@
+
+.containergallery {
+    position: relative;
+    width: 100%;
+    height: $height_container__galery;
+}
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: $height_container__galery;
+    background-color: chartreuse;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: aquamarine;
+    bottom: -100px;
+    right: 50px;
+}

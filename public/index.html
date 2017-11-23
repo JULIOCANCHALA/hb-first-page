@@ -16,7 +16,7 @@
     <div class="container">
         <header class="header">
             <div class="header__item">
-                <img onmouseover="compress_menu(this)" onmouseout="decompress_menu(this)" class="btnmenu" src="..\src\imgs\menu.svg" alt="menu">
+                <img onmouseover="expand_menu(this)" onmouseout="noexpand_menu(this)" class="btnmenu" src="..\src\imgs\menu.svg" alt="menu">
             </div>
             <div class="header__item">
                 <nav class="header__nav">
@@ -36,13 +36,13 @@
             <article class="containername">
                 <img class="containername__imgname" src="..\src\imgs\name.jpg" alt="Name">
             </article>
-            <article>
-                <div>
+            <article class="containergallery">
+                <div class="view">
                     <h1>Gallery</h1>
                 </div>
-                <div>
+                <div class="preview">
                     <button><</button>
-                    <h1>Imagen</h1>
+                    <h1>preview</h1>
                     <button>></button>
                 </div>
             </article>
