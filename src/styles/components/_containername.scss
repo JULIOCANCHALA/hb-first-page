@@ -1,0 +1,10 @@
+.containername__imgname {
+    height: $height_imgname;
+}
+
+.containername {
+    height: $height_container__imgname;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

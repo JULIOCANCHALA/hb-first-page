@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" src="../src/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+
     <title>hb-first-page</title>
 </head>
+
 <body>
     <div class="container">
         <header class="header">
             <div class="header__item">
-                <button>logo</button>
+                <img onmouseover="compress_menu(this)" onmouseout="decompress_menu(this)" class="btnmenu" src="..\src\imgs\menu.svg" alt="menu">
             </div>
             <div class="header__item">
                 <nav class="header__nav">
                     <ul class="header__nav__ul">
-                        <li class="header_nav_conteiner__item"><a href="#item1">item1</a></li>
-                        <li class="header_nav_conteiner__item"><a href="#item2">item2</a></li>
-                        <li class="header_nav_conteiner__item"><a href="#item3">item3</a></li>
+                        <li class="header_nav_conteiner__item"><a href="#item1">Shop</a></li>
+                        <li class="header_nav_conteiner__item"><a href="#item2">Create</a></li>
+                        <li class="header_nav_conteiner__item"><a href="#item3">Sell</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="header__item">
-                <Button>Sign in</Button>                
+                <img class="btnuser" src="..\src\imgs\user.svg">
             </div>
         </header>
 
-        <main>
-            <article>
-                <h1>Nombre</h1>
+        <main class="main">
+            <article class="containername">
+                <img class="containername__imgname" src="..\src\imgs\name.jpg" alt="Name">
             </article>
             <article>
                 <div>
@@ -76,8 +80,8 @@
                 </section>
 
                 <section>
-                <div>
-                    <img src="" alt="">
+                    <div>
+                        <img src="" alt="">
                         <h1>diseño7</h1>
                     </div>
                     <div>
@@ -89,7 +93,7 @@
                         <h1>diseño9</h1>
                     </div>
                 </section>
-                
+
             </article>
         </main>
         <footer class="footer">
@@ -97,4 +101,5 @@
         </footer>
     </div>
 </body>
+
 </html>
