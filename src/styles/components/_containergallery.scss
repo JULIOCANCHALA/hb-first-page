@@ -10,7 +10,18 @@
     align-items: center;
     width: 100%;
     height: $height_container__galery;
-    background-color: chartreuse;
+    background-color: white;
+    overflow: hidden;
+}
+
+.view__img{
+    width: 100%;
+}
+
+.preview__img{
+    width: 100%;
+    width: 180px;
+    height: 180px;
 }
 
 .preview {
@@ -20,7 +31,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    background-color: aquamarine;
+    background-color: #242426;
     bottom: -100px;
     right: 50px;
 }
