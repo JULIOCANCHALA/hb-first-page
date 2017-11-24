@@ -1,9 +1,16 @@
 .container {
     width: 100%;
 }
-article{
+
+article {
     display: flex;
     width: 100%;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    width: 100%
 }
 
 li a {

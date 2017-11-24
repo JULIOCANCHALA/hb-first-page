@@ -1,0 +1,17 @@
+.containerdesigns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 130px;
+    width: 90%;
+}
+
+.containerdesigns>* {
+    height: $height_design;
+    width: $width_design;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color_header;
+    margin-bottom: 30px;
+}
