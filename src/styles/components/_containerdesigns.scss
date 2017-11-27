@@ -6,6 +6,14 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin-bottom: 50px;
+
+    @include at-small-breakpoint1 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    @include at-small-breakpoint2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 .containerdesigns>* {
