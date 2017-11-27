@@ -1,7 +1,57 @@
 .main {
     margin-top: $height_header;
+    position: relative;
 }
 
-.main__item:nth-child(3){
-    background-color: #eeeeee;
+.main__item:nth-child(2) {
+    background-color: #222221;
+}
+
+.main__item:nth-child(5) {
+    background-color: whitesmoke;
+}
+
+.nav_conteiner__item {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.nav__ul {
+    font-family: $lobster;
+    display: flex;
+    width: 50%;
+    font-size: 28px;
+    justify-content: space-evenly;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background: rgba(black, 0.5);
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+
+li a:hover:before {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
 }

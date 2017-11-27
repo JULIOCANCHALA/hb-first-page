@@ -1,6 +1,6 @@
 .containerdesigns {
-    margin-top: 130px;
-    width: 90%;
+    margin-top: 60px;
+    width: 80%;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -16,25 +16,38 @@
     background-color: #ffffff;
     flex-direction: column;
     position: relative;
+    transition: all 2s ease;
+    transform: perspective(600px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
 }
 
-.imgdesign:nth-child(n){
+.containerdesigns>*:hover {
+    transform: perspective(600px) rotateY(-180deg) translateX(100%);
+}
+
+.imgdesign:nth-child(n) {
     height: 280px;
     width: 300px;
     margin-top: 15px;
+    transition: all 0.2s ease;
 }
 
-.namedesign1:nth-child(n){
+.imgdesign:nth-child(n):hover {
+    filter: grayscale(0%);
+}
+
+.namedesign1:nth-child(n) {
     font-size: 20px;
     line-height: 20px;
     width: 280px;
     position: absolute;
     bottom: 60px;
+    transition: all 0.2s ease;
 }
 
-.namedesign2:nth-child(n){
+.namedesign2:nth-child(n) {
     font-size: 20px;
     line-height: 40px;
     width: 260px;
 }
-

@@ -1,7 +1,17 @@
 .btnmenu {
-    height: $height_btnmenu;
+    height: 25px;
+}
+
+.btnmenu:nth-child(1) {
+    transition: all 0.2s ease-in-out;
+    margin-left: 60px;
+}
+
+.btnmenu:nth-child(2) {
+    margin-left: 10px;
 }
 
 .btnuser {
     height: $height_btnuser;
+    margin-right: 60px;
 }

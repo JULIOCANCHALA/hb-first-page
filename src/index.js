@@ -1,9 +1,9 @@
 function expand_menu(item) {
-    item.style.height = "30px";
-    console.log("1");
+    item.style.height = "22px";
+
 }
 
 function noexpand_menu(item) {
-    item.style.height = "26px";
-    console.log("0");
+    item.style.height = "25px";
+
 }
