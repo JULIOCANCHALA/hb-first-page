@@ -1,14 +1,20 @@
 .main {
     margin-top: $height_header;
     position: relative;
+    width: 70%;
 }
 
 .main__item:nth-child(2) {
     background-color: #222221;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 13px 50px;
 }
 
 .main__item:nth-child(5) {
     background-color: whitesmoke;
+    margin-top: 20px;
+    border-radius: 13px 50px;
 }
 
 .nav_conteiner__item {
