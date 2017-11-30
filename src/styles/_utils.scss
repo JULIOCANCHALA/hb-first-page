@@ -1,0 +1,17 @@
+@mixin at-small-breakpoint1{
+  @media (max-width: $small-breakpoint1) {
+    @content;
+  }
+}
+
+@mixin at-small-breakpoint2 {
+  @media (max-width: $small-breakpoint2) {
+    @content;
+  }
+}
+
+@mixin at-small-breakpoint3 {
+  @media (max-width: $small-breakpoint3) {
+    @content;
+  }
+}
